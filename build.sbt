@@ -20,6 +20,8 @@ resolvers += "SonatypeReleases" at "http://oss.sonatype.org/content/repositories
 
 libraryDependencies += "tv.cntt" %% "xitrum" % "3.18-SNAPSHOT" % "provided"
 
+libraryDependencies += "org.webjars" % "swagger-ui" % "2.0.21"
+
 //------------------------------------------------------------------------------
 
 // Skip API doc generation to speedup "publish-local" while developing.
